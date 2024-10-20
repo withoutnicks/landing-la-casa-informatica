@@ -1,0 +1,39 @@
+---
+import { Image } from 'astro:assets';
+import NavbarLink from './ui/NavbarLink.astro';
+import NavbarToggleButton from './ui/NavbarToggleButton.astro';
+---
+
+<header
+	class='relative flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-zinc-100 text-sm dark:bg-zinc-800 min-h-[12vh]'
+>
+	<section class='max-w-[85rem] w-full mx-auto px-4 py-2 md:flex md:items-center md:justify-between'>
+		<div class='flex items-center justify-between'>
+			<a class='flex-none' href='/' aria-label='Logo de la marca'>
+				<Image
+					width={70}
+					height={70}
+					src='/images/logo_lci.png'
+					alt='Logo principal de La Casa Informatica'
+					loading={'eager'}
+				/>
+			</a>
+			<div class='md:hidden'>
+				<NavbarToggleButton />
+			</div>
+		</div>
+		<div
+			id='hs-navbar-example'
+			class='hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow md:block'
+			aria-labelledby='hs-navbar-example-collapse'
+		>
+			<nav class='flex flex-col gap-5 mt-5 md:flex-row md:items-center md:justify-end md:mt-0 sm:ps-5'>
+				<NavbarLink link="/" text='Inicio' active />
+				<NavbarLink link='/cursos' text='Catálogo de Cursos' />
+				<NavbarLink link='/productos' text='Catálogo de Productos' />
+				<NavbarLink link='/servicios' text='Servicios' />
+				<NavbarLink link='/promociones' text='Promociones' />
+			</nav>
+		</div>
+	</section>
+</header>
