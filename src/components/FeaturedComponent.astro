@@ -1,0 +1,30 @@
+---
+import CardButtonImage from './ui/CardButtonImage.astro';
+---
+
+<section class='py-6 px-4 bg-zinc-200 dark:bg-zinc-900'>
+	<h2 class='text-3xl font-bold underline text-center'>Nuestros cursos mas solicitados</h2>
+	<div class='flex flex-wrap justify-center py-4 md:my-6 gap-4'>
+		<CardButtonImage
+			title='Curso de Java'
+			description='Domina el poder de Java desde cero'
+			banner='/images/courses/java.jpg'
+			alt='Curso de Programación en Java'
+      href='/cursos/java'
+		/>
+    <CardButtonImage
+			title='Curso de Javascript'
+			description='Domina el poder de Javascript desde cero'
+			banner='/images/courses/javascript.jpg'
+			alt='Curso de Programación en Javascript'
+      href='/cursos/javascript'
+		/>
+    <CardButtonImage
+			title='Curso de Python'
+			description='Domina el poder de Python desde cero'
+			banner='/images/courses/python.jpg'
+			alt='Curso de Programación en Python'
+      href='/cursos/python'
+		/>
+	</div>
+</section>

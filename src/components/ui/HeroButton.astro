@@ -2,17 +2,19 @@
 interface Props {
 	link: string;
 	text: string;
-	type: 'solid' | 'outline';
+	type: 'solid' | 'outline' | 'white';
 }
 
 const { link, text, type } = Astro.props;
 ---
 
 <a
-	class=`py-3 px-4 inline-flex items-center gap-x-2 text-lg font-medium rounded-lg ${
+	class=`py-3 px-4 inline-flex items-center gap-x-2 text-lg font-medium rounded-lg justify-center ${
   type === 'solid'
-    ? 'border border-transparent bg-pattens-blue-600 text-white hover:bg-pattens-blue-700 focus:outline-none focus:bg-pattens-blue-700'
-    : 'border border-zinc-200 bg-white text-zinc-800 shadow-sm hover:bg-zinc-50 focus:outline-none focus:bg-zinc-50 dark:bg-zinc-800 dark:border-zinc-700 dark:text-white dark:hover:bg-zinc-700 dark:focus:bg-zinc-700'
+    ? 'border border-transparent bg-pattens-blue-600 text-white hover:bg-pattens-blue-700 '
+  : type === 'outline' 
+  ? 'border border-zinc-200 bg-white text-zinc-800 shadow-sm hover:bg-zinc-50 focus:outline-none focus:bg-zinc-50 dark:bg-zinc-800 dark:border-zinc-700 dark:text-white dark:hover:bg-zinc-700 dark:focus:bg-zinc-700'
+  : 'border border-transparent bg-zinc-800 text-white hover:bg-zinc-900 dark:text-black dark:bg-zinc-100 dark:hover:bg-zinc-200'
   }`
 	href={link}
 >

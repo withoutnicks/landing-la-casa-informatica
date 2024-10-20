@@ -1,0 +1,19 @@
+---
+import { Image } from "astro:assets";
+import HeroButton from "./ui/HeroButton.astro";
+import DiscordSvg from './svgs/Discord_svg.astro'
+---
+
+<section class="h-auto px-4 text-center bg-zinc-200 dark:bg-zinc-900">
+	<h2 class='text-3xl font-bold underline text-center'>Explora nuestra comunidad</h2>
+  <p class="text-lg text-center max-w-lg mx-auto md:text-xl my-4">Fomenta la conversación y el intercambio de ideas con otras personas que compartan tus objetivos</p>
+  <HeroButton link="https://discord.gg/E4J47jcEVG" text="Unete a nuestro Discord" type="white"><DiscordSvg size="1.4rem"/></HeroButton>
+  <Image 
+    width={350}
+    height={200}
+    src={'/images/community.png'}
+    alt={'3d illustration the community'}
+    class={'md:size-[30rem] mx-auto pointer-events-none'}
+    loading={'lazy'}
+  />
+</section>
