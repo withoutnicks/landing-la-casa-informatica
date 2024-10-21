@@ -1,0 +1,35 @@
+---
+import FeaturedComponent from '../../components/FeaturedComponent.astro';
+import Layout from '../../layouts/Layout.astro';
+import CardButtonImage from '../../components/ui/CardButtonImage.astro';
+import data from '../../mock/cursos.json';
+
+export interface BasicCurse {
+    id:          number;
+    key:         string;
+    title:       string;
+    description: string;
+    banner:      string;
+    img_alt:     string;
+    href:        string;
+}
+---
+
+<Layout title='La casa informatica | Listos para guiarte hacia la digitalización' howIsActive='cursos'>
+	<FeaturedComponent title='Catalogo de Cursos'>
+    {
+      data.map((item) => (
+        <CardButtonImage
+          title={item.title}
+          description={item.description}
+          banner={item.banner}
+          alt={item.img_alt}
+          href={item.href}
+          large={true}
+          price={item.price}
+          duration={item.duration}
+        />
+      ))
+    }
+	</FeaturedComponent>
+</Layout>

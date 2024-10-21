@@ -1,0 +1,57 @@
+[
+	{
+		"id": 1,
+		"key": "javascript",
+		"title": "Curso de JavaScript",
+		"description": "Aprenderás JavaScript desde cero hasta crear y desplegar aplicaciones web, con proyectos prácticos, manejo de Git y GitHub, y desarrollo backend con Node.js",
+		"banner": "/images/courses/javascript.jpg",
+		"img_alt": "Curso de Programación en JavaScript",
+		"href": "/cursos/javascript",
+    "price": 120,
+    "duration": "2 meses"
+	},
+	{
+		"id": 2,
+		"key": "python",
+		"title": "Curso de Python",
+		"description": "Aprende desde cero y aplica tus conocimientos en proyectos prácticos. Explora estructuras de control, funciones, POO, y herramientas como Git, Pandas y NumPy.",
+		"banner": "/images/courses/python.jpg",
+		"img_alt": "Curso de Programación en Python",
+		"href": "/cursos/python",
+    "price": 120,
+    "duration": "2 meses"
+	},
+	{
+		"id": 3,
+		"key": "java",
+		"title": "Curso de Java",
+		"description": "Aprende Java desde lo básico hasta el desarrollo de aplicaciones web con Spring Boot. Explora variables, estructuras de control, POO, interfaces, y abstracción. Luego, profundiza en Spring Boot y bases de datos",
+		"banner": "/images/courses/java.jpg",
+		"img_alt": "Curso de Programación en Java",
+		"href": "/cursos/java",
+    "price": 120,
+    "duration": "2 meses"
+	},
+	{
+		"id": 4,
+		"key": "react-native",
+		"title": "Curso de Desarrollo de Aplicaciones Móviles",
+		"description": "Aprende a desarrollar aplicaciones móviles con React Native y Expo. Cubre componentes, estado, consumo de APIs, manejo de eventos, estado global con Zustand y mapas interactivos",
+		"banner": "/images/courses/movil.jpg",
+		"img_alt": "Curso de Desarrollo de Aplicaciones Móviles",
+		"href": "/cursos/react-native",
+    "price": 120,
+    "duration": "2 meses"
+	},
+	{
+		"id": 5,
+		"key": "react",
+		"title": "Curso de React",
+		"description": "Aprende a construir aplicaciones web dinámicas usando React. Cubre componentes funcionales, manejo de estado con hooks, eventos, formularios, integración de APIs, y despliegue. Además, incluye introducción a TypeScript y Tailwind CSS",
+		"banner": "/images/courses/react.jpg",
+		"img_alt": "Curso de React",
+		"href": "/cursos/react",
+    "price": 120,
+    "duration": "2 meses"
+	}
+]
