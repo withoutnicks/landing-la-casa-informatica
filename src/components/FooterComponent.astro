@@ -1,58 +1,55 @@
 ---
-import InstagramSvg from "./svgs/Instagram_svg.astro";
-import MailSvg from "./svgs/Mail_svg.astro";
-import TelSvg from "./svgs/Tel_svg.astro";
-import TiktokSvg from "./svgs/Tiktok_svg.astro";
-import YoutubeSvg from "./svgs/Youtube_svg.astro";
-import FooterLink from "./ui/FooterLink.astro";
+import InstagramSvg from './svgs/Instagram_svg.astro';
+import YoutubeSvg from './svgs/Youtube_svg.astro';
+import FooterLink from './ui/FooterLink.astro';
+import TiktokSvg from './svgs/Tiktok_svg.astro';
+import MailSvg from './svgs/Mail_svg.astro';
+import TelSvg from './svgs/Tel_svg.astro';
+
+import el from '@master/styled.react';
+
+const SubTitleFooter = el.h2`text-lg font-bold text-pattens-blue-500 text-center md:text-left`;
 ---
 
-<footer class='bottom-0 left-0 right-0 bg-zinc-100 dark:bg-black'>
+<footer class='bg-zinc-100 dark:bg-black'>
 	<div class='mx-auto px-4 pb-6 pt-16 md:px-6 lg:px-8 lg:pt-24'>
 		<div class='grid grid-cols-1 gap-8 md:grid-cols-3 justify-items-center'>
 			<div>
-				<div class='flex justify-center text-pattens-blue-500 md:justify-start font-bold text-xl'>
-          <h2>LA CASA INFORMATICA</h2>
-        </div>
-
+				<SubTitleFooter>LA CASA INFORMATICA</SubTitleFooter>
 				<p class='mt-6 w-full text-center leading-relaxed dark:text-zinc-400 md:max-w-xs md:text-left text-lg'>
 					Domina la Tecnología de Forma Práctica y Actualizada
 				</p>
 			</div>
 
-      <div class='text-center md:text-left'>
-        <p class='text-lg font-medium text-pattens-blue-500'>CONTACTA CON NOSOTROS</p>
-
-        <ul class='mt-8 space-y-4 text-md'>
-          <FooterLink href='emailto: leonardopalomino321@gmail.com' text='leonardopalomino321@gmail.com'>
-            <MailSvg size={'1.4rem'} />
-          </FooterLink>
-          <FooterLink href="tel:+51976783049" text='+51 976783049'>
-            <TelSvg size={'1.4rem'} />
-          </FooterLink>
-        </ul>
-      </div>
-      <div class='text-center md:text-left'>
-        <p class='text-lg font-medium text-pattens-blue-500'>REDES SOCIALES</p>
-
-        <ul class='mt-8 space-y-4 text-md'>
-          <FooterLink href="https://www.instagram.com/leonardo_palomino1/" text='Instagram'>
-            <InstagramSvg size={'1.4rem'} />
-          </FooterLink>
-          <FooterLink href="https://www.tiktok.com/@lacasa_informatica" text='Tiktok'>
-            <TiktokSvg size={'1.4rem'} />
-          </FooterLink>
-          <FooterLink href="https://www.youtube.com/@LaCasaInformatica" text='Youtube'>
-            <YoutubeSvg size={'1.4rem'} />
-          </FooterLink>
-        </ul>
-      </div>
+			<div>
+				<SubTitleFooter>CONTACTA CON NOSOTROS</SubTitleFooter>
+				<ul class='mt-6 space-y-4 text-md'>
+					<FooterLink href='emailto: leonardopalomino321@gmail.com' text='leonardopalomino321@gmail.com'>
+						<MailSvg size={'1.2rem'} />
+					</FooterLink>
+					<FooterLink href='tel:+51976783049' text='+51 976783049'>
+						<TelSvg size={'1.2rem'} />
+					</FooterLink>
+				</ul>
+			</div>
+			<div>
+				<SubTitleFooter>REDES SOCIALES</SubTitleFooter>
+				<ul class='mt-6 space-y-4 text-base'>
+					<FooterLink href='https://www.instagram.com/leonardo_palomino1/' text='Instagram'>
+						<InstagramSvg size={'1.2rem'} />
+					</FooterLink>
+					<FooterLink href='https://www.tiktok.com/@lacasa_informatica' text='Tiktok'>
+						<TiktokSvg size={'1.2rem'} />
+					</FooterLink>
+					<FooterLink href='https://www.youtube.com/@LaCasaInformatica' text='Youtube'>
+						<YoutubeSvg size={'1.2rem'} />
+					</FooterLink>
+				</ul>
+			</div>
 		</div>
 
 		<div class='mt-12 border-t border-zinc-400 dark:border-zinc-800 pt-6'>
-			<div class='text-center'>
-				<p class='mt-4 text-md text-zinc-500 md:order-first md:mt-0'>&copy; 2024 - withoutnicks </p>
-			</div>
+			<p class='mt-4 text-md text-zinc-500 md:order-first md:mt-0 text-center'>&copy; 2024 - withoutnicks</p>
 		</div>
 	</div>
 </footer>

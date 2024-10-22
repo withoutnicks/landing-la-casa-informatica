@@ -13,6 +13,9 @@ import data from '../../mock/cursos.json';
 import el from '@master/styled.react';
 import HeroButton from '../../components/ui/HeroButton.astro';
 
+/**
+ * Función que devuelve las rutas de las páginas
+ */
 export function getStaticPaths() {
 	return data.map((item) => {
 		return {
@@ -32,8 +35,7 @@ const SubTitleCourse = el.h2`text-2xl w-full font-bold underline text-center md:
 	<main class='flex flex-col md:flex-row justify-center md:justify-around gap-4 py-4 px-4'>
 		<section>
 			<SubTitleCourse>
-				<HomeSvg />
-				{item.title}
+				<HomeSvg /> {item.title}
 			</SubTitleCourse>
 			<p class='max-w-2xl text-center md:text-start my-4'>{item.description}</p>
 			<article>

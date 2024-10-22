@@ -5,27 +5,30 @@ import CoursesComponent from '../components/FeaturedComponent.astro';
 import CommunityComponent from '../components/CommunityComponent.astro';
 import TeamComponent from '../components/TeamComponent.astro';
 import CardButtonImage from '../components/ui/CardButtonImage.astro';
+import ServicesComponent from '../components/ServicesComponent.astro';
 import data from '../mock/cursos.json';
 ---
 
-<Layout title="La casa informatica | Listos para guiarte hacia la digitalización" howIsActive='home'>
+<Layout title='La casa informatica | Listos para guiarte hacia la digitalización' howIsActive='home'>
 	<main>
 		<HeroComponent />
 		<CoursesComponent title='Nuestros cursos mas solicitados'>
 			{
-				data.slice(0, 3).map((item) => (
-					<CardButtonImage
-						title={item.title}
-						description={item.description}
-						banner={item.banner}
-						alt={item.img_alt}
-						href={item.href}
-					/>
-				))
+				data
+					.slice(0, 3)
+					.map((item) => (
+						<CardButtonImage
+							title={item.title}
+							description={item.description}
+							banner={item.banner}
+							alt={item.img_alt}
+							href={item.href}
+						/>
+					))
 			}
 		</CoursesComponent>
 		<CommunityComponent />
+		<ServicesComponent />
 		<TeamComponent />
 	</main>
 </Layout>
-

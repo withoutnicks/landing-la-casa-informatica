@@ -1,8 +1,8 @@
 ---
-import '@fontsource-variable/afacad-flux';
+import { ViewTransitions } from 'astro:transitions';
 import FooterComponent from '../components/FooterComponent.astro';
 import NavbarComponent from '../components/NavbarComponent.astro';
-import { ViewTransitions } from 'astro:transitions';
+import '@fontsource-variable/afacad-flux';
 
 interface Props {
 	title: string;
@@ -13,7 +13,8 @@ const { title, howIsActive } = Astro.props;
 ---
 
 <!doctype html>
-<html lang='en' class="scroll-smooth">
+<html lang='en' class='scroll-smooth'>
+
 	<head>
 		<meta charset='UTF-8' />
 		<meta name='description' content='Astro description' />
@@ -21,27 +22,34 @@ const { title, howIsActive } = Astro.props;
 		<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
 		<meta name='generator' content={Astro.generator} />
 		<title>{title}</title>
-		
+		<!-- 
+			* View Transitions API para el cambio de páginas
+			-->
 		<ViewTransitions />
 	</head>
-	<body class="text-zinc-900 bg-zinc-100 dark:text-zinc-100 dark:bg-zinc-900">
+
+	<body class='text-zinc-900 bg-zinc-100 dark:text-zinc-100 dark:bg-zinc-900'>
 		<NavbarComponent active={howIsActive} />
 		<slot />
 		<FooterComponent />
 	</body>
+
 </html>
 
 <style>
-	body {
-		font-family: 'Afacad Flux Variable', sans-serif;
-	}
+	body { font-family: 'Afacad Flux Variable', sans-serif; }
 </style>
 
+<!--
+	* Inicializar los componentes de PrelineUI luego de la transición de paginas 
+	-->
 <script is:inline>
-  document.addEventListener('astro:after-swap', () => {
-    window.HSStaticMethods.autoInit();
-  });
+	document.addEventListener('astro:after-swap', () => {
+		window.HSStaticMethods.autoInit();
+	});
 </script>
 
-<script is:inline src='../../node_modules/preline/dist/preline.js' ></script>
-
+<!-- 
+	* Cargar el javascript de PrelineUI 
+	-->
+<script is:inline src='../../node_modules/preline/dist/preline.js'></script>

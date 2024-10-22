@@ -1,0 +1,33 @@
+---
+import WhatsappSvg from './svgs/Whatsapp_svg.astro';
+import ArrowButton from './svgs/ArrowButton.astro';
+import BadgeCard from './ui/BadgeCard.astro';
+import HeroButton from './ui/HeroButton.astro';
+---
+
+<section>
+	<h2 class='text-3xl font-bold underline text-center'>Nuestros Servicios</h2>
+	<p class="text-lg text-center max-w-4xl mx-auto md:text-xl my-4 text-zinc-600 dark:text-zinc-400">
+		En La Casa Informática, ofrecemos soluciones personalizadas para ayudarte a modernizar y optimizar tus procesos.
+		Nuestro equipo de expertos está listo para guiarte en cada paso del camino hacia la digitalización. No dejes pasar
+		la oportunidad de llevar tu negocio al siguiente nivel.
+	</p>
+  <div class="max-w-2xl flex flex-col gap-2 my-4 items-center justify-center mx-auto cursor-default">
+    <BadgeCard text='Servicios de Marketing' color='white' />
+    <BadgeCard text='Consultoría en transformación digital' color='white' />
+    <BadgeCard text='Desarrollo de software a medida' color='white' />
+    <BadgeCard text='Capacitación y talleres tecnológicos' color='white' />
+    <BadgeCard text='Diseño de estrategias de marketing digital' color='white' />
+  </div>
+  <div class="flex flex-col items-center my-4">
+    <ArrowButton />
+  </div>
+	<div class="flex flex-col items-center mb-8">
+    <HeroButton
+		link='https://wa.me/51976783049?text=Hola%20deseo%20los%20servicios%20de%20La%20Casa%20Informática'
+		text='Escribenos para más información'
+		type='white'>
+      <WhatsappSvg size='1.5rem' />
+    </HeroButton>
+  </div>
+</section>
