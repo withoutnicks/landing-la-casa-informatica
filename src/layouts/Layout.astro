@@ -21,6 +21,7 @@ const { title, howIsActive } = Astro.props;
 		<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
 		<meta name='generator' content={Astro.generator} />
 		<title>{title}</title>
+		
 		<ViewTransitions />
 	</head>
 	<body class="text-zinc-900 bg-zinc-100 dark:text-zinc-100 dark:bg-zinc-900">
@@ -36,4 +37,11 @@ const { title, howIsActive } = Astro.props;
 	}
 </style>
 
-<script src='../../node_modules/preline/dist/preline.js'></script>
+<script is:inline>
+  document.addEventListener('astro:after-swap', () => {
+    window.HSStaticMethods.autoInit();
+  });
+</script>
+
+<script is:inline src='../../node_modules/preline/dist/preline.js' ></script>
+

@@ -5,10 +5,79 @@
 		"title": "Curso de JavaScript",
 		"description": "Aprenderás JavaScript desde cero hasta crear y desplegar aplicaciones web, con proyectos prácticos, manejo de Git y GitHub, y desarrollo backend con Node.js",
 		"banner": "/images/courses/javascript.jpg",
+		"banner_secondary": "/images/banners/bjs.jpg",
 		"img_alt": "Curso de Programación en JavaScript",
 		"href": "/cursos/javascript",
-    "price": 120,
-    "duration": "2 meses"
+		"link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20JavaScript%21",
+		"tags": {
+			"price": 120,
+			"duration": "2 meses",
+			"duration_hrs": "+24 horas",
+			"program": "DOMINGO: 7:00 pm - 10:00 pm | 🇵🇪",
+			"teacher": "Leonardo Palomino",
+			"num_classes": "8 clases",
+			"start": "10 de Noviembre",
+			"end": "29 de Diciembre"
+		},
+		"syllabus": [
+			{
+				"title": "Sección 1: Introducción a JavaScript y entorno de desarrollo",
+				"S1": "Instalación de Node.js y Visual Studio Code.",
+				"S2": "Uso de var, let, const.",
+				"S3": "Tipos de datos: números, cadenas, objetos, arreglos.",
+				"S4": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 2: Operadores y estructuras de control",
+				"S1": "Operadores aritméticos, lógicos y de comparación.",
+				"S2": "Estructuras condicionales: if, else, switch.",
+				"S3": "Bucles: for, while.",
+				"S4": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 3: Arreglos y manipulación de datos",
+				"S1": "Creación y manipulación de arreglos.",
+				"S2": "Métodos map(), filter(), reduce(), etc.",
+				"S3": "Trabajar con objetos: acceder y modificar propiedades.",
+				"S4": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 4: Funciones, clases y objetos",
+				"S1": "Declaración y uso de funciones.",
+				"S2": "Introducción a la programación orientada a objetos.",
+				"S3": "Creación de clases y objetos.",
+				"S4": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 5: Node.js, Express.js, npm y GitHub",
+				"S1": "Instalación y uso de Node.js y Express.js.",
+				"S2": "Creación de una API RESTful básica.",
+				"S3": "Uso de npm para gestionar dependencias.",
+				"S4": "Configuración de un repositorio en GitHub.",
+				"S5": "Avance 1 de su proyecto final"
+			},
+			{
+				"title": "Sección 6: Manipulación del DOM y eventos",
+				"S1": "Acceso y manipulación del DOM.",
+				"S2": "Manejo de eventos: click, submit, change.",
+				"S3": "Interacción entre frontend y backend.",
+				"S4": "Avance 2 de su proyecto final"
+			},
+			{
+				"title": "Sección 7: Bases de datos y deploy",
+				"S1": "Conectar con una base de datos PostgreSQL.",
+				"S2": "Crear endpoints para operaciones CRUD.",
+				"S3": "Introducción al deploy de aplicaciones (Render).",
+				"S4": "Avance 3 de su proyecto final."
+			},
+			{
+				"title": "Sección 8: Revisión y optimización",
+				"S1": "Preparación para el deploy final.",
+				"S2": "Técnicas básicas de testing (unitarias e integración).",
+				"S3": "Examen final",
+				"S4": "Avance 4 de su proyecto final."
+			}
+		]
 	},
 	{
 		"id": 2,
@@ -16,10 +85,75 @@
 		"title": "Curso de Python",
 		"description": "Aprende desde cero y aplica tus conocimientos en proyectos prácticos. Explora estructuras de control, funciones, POO, y herramientas como Git, Pandas y NumPy.",
 		"banner": "/images/courses/python.jpg",
+		"banner_secondary": "/images/banners/bpython.jpg",
 		"img_alt": "Curso de Programación en Python",
 		"href": "/cursos/python",
-    "price": 120,
-    "duration": "2 meses"
+		"link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20Python%21",
+		"tags": {
+			"price": 120,
+			"duration": "2 meses",
+			"duration_hrs": "+24 horas",
+			"program": "SÁBADO: 7:00 pm - 10:00 pm | 🇵🇪",
+			"teacher": "Leonardo Palomino",
+			"num_classes": "8 clases",
+			"start": "9 de Noviembre",
+			"end": "28 de Diciembre"
+		},
+		"syllabus": [
+			{
+				"title": "Sección 1: Introducción a Python",
+				"S1": "Instalación y configuración: Instalación de Python y entorno de desarrollo.",
+				"S2": "Tipos de datos básicos: Variables, enteros, cadenas, flotantes, booleanos.",
+				"S3": "Operadores básicos: Aritméticos, lógicos y de comparación.",
+				"S4": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 2: Estructuras de Control",
+				"S1": "Condicionales: Uso de if, else, y elif para tomar decisiones.",
+				"S2": "Bucles: Estructuras de repetición con for, while, y break.",
+				"S3": "Control de flujo: Uso de continue y pass en bucles.",
+				"S4": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 3: Funciones y Colecciones en Pythons",
+				"S1": "Definición de funciones: Creación y llamada de funciones en Python.",
+				"S2": "Listas: Definición, manipulación y métodos comunes.",
+				"S3": "Tuplas y diccionarios: Diferencias y cómo trabajar con ellos.",
+				"S4": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 4: Programación Orientada a Objetos (POO)",
+				"S1": "Clases y Objetos: Definición de clases, instanciación de objetos.",
+				"S2": "Encapsulamiento: Uso de modificadores de acceso y getters/setters.",
+				"S3": "Herencia y Polimorfismo: Creación de clases derivadas y sobrescritura de métodos.",
+				"S4": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 5: Git, GitHub y Pandas",
+				"S1": "Introducción a Git: Creación y gestión de repositorios locales.",
+				"S2": "Trabajo con GitHub: Subir proyectos y colaborar en repositorios remotos.",
+				"S3": "Introducción a Pandas: Creación y manipulación de Series y DataFrames.",
+				"S4": "Configuración de un repositorio en GitHub.",
+				"S5": "Avance 1 de su proyecto final"
+			},
+			{
+				"title": "Sección 6: NumPy y Proyecto Práctico",
+				"S1": "Fundamentos de NumPy: Creación de arreglos, operaciones matemáticas y estadísticas.",
+				"S2": "Manipulación de datos: Uso de funciones avanzadas de NumPy.",
+				"S3": "Avance 2 de su proyecto final"
+			},
+			{
+				"title": "Sección 7: Manejo de Archivos",
+				"S1": "Manejo de archivos: Leer y escribir en archivos de texto, CSV, JSON.",
+				"S2": "Avance 3 de su proyecto final."
+			},
+			{
+				"title": "Sección 8: Revisión Final del Proyecto",
+				"S1": "Revisión final y presentación del proyecto completo.",
+				"S2": "Examen final",
+				"S3": "Avance 4 de su proyecto final."
+			}
+		]
 	},
 	{
 		"id": 3,
@@ -27,10 +161,75 @@
 		"title": "Curso de Java",
 		"description": "Aprende Java desde lo básico hasta el desarrollo de aplicaciones web con Spring Boot. Explora variables, estructuras de control, POO, interfaces, y abstracción. Luego, profundiza en Spring Boot y bases de datos",
 		"banner": "/images/courses/java.jpg",
+		"banner_secondary": "/images/banners/bjava.jpg",
 		"img_alt": "Curso de Programación en Java",
 		"href": "/cursos/java",
-    "price": 120,
-    "duration": "2 meses"
+		"link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20Java%21",
+		"tags": {
+			"price": 120,
+			"duration": "2 meses",
+			"duration_hrs": "+24 horas",
+			"program": "DOMINGO: 8:00 am - 11:00 pm | 🇵🇪",
+			"teacher": "Yasser Ávalos",
+			"num_classes": "8 clases",
+			"start": "10 de Noviembre",
+			"end": "29 de Diciembre"
+		},
+		"syllabus": [
+			{
+				"title": "Sección 1: Introducción a Java y su entorno de desarrollo",
+				"S1": "Historia y características de Java.",
+				"S2": "Instalación y configuración del JDK y un entorno de desarrollo (IDE).",
+				"S3": "Primeros pasos: \"Hello, World!\" en Java.",
+				"S4": "Tipos de datos primitivos y variables."
+			},
+			{
+				"title": "Sección 2:  Operadores, expresiones y estructuras de control",
+				"S1": "Operadores aritméticos, lógicos y relacionales.",
+				"S2": "Expresiones en Java.",
+				"S3": "Control de flujo: if, else, switch."
+			},
+			{
+				"title": "Sección 3: Bucles: for, while, do-while, arreglos y colecciones básicas",
+				"S1": "Bucles en Java: for, while, do-while.",
+				"S2": "Introducción a arreglos: declaración, inicialización y uso.",
+				"S3": "Colecciones básicas: ArrayList, HashMap.",
+				"S4": "Creación y uso de métodos en Java."
+			},
+			{
+				"title": "Sección 4: Métodos y funciones, introducción a la POO en Java",
+				"S1": "Conceptos básicos de Programación Orientada a Objetos (POO)",
+				"S2": "Modificadores de acceso y encapsulamiento.",
+				"S3": "HERENCIA: Polimorfismo en Java.",
+				"S4": "HERENCIA: Uso de constructores y sobrecarga de métodos"
+			},
+			{
+				"title": "Sección 5: Interfaces, abstracción y práctica",
+				"S1": "Definición y uso de interfaces en Java.",
+				"S2": "Abstracción y clases abstractas.",
+				"S3": "Ejercicios prácticos para implementar interfaces y clases abstractas."
+			},
+			{
+				"title": "Sección 6: Introducción a Spring Boot y MVC",
+				"S1": "Introducción a Spring Boot: qué es y por qué usarlo.",
+				"S2": "Creación de un proyecto básico en Spring Boot.",
+				"S3": "Introducción a MVC (Modelo-Vista-Controlador) en Spring Boot.",
+				"S4": "Creación de primera web con Spring Boot"
+			},
+			{
+				"title": "Sección 7: Integración con bases de datos",
+				"S1": "Implementación de controladores, servicios y repositorios en Spring Boot.",
+				"S2": "Integración de Spring Boot con bases de datos utilizando JPA/Hibernate.",
+				"S3": "Creación de una aplicación CRUD completa con Spring Boot."
+			},
+			{
+				"title": "Sección 8: Desarrollo de un proyecto práctico",
+				"S1": "Desarrollo de un proyecto final integrador.",
+				"S2": "Aplicación de todos los conceptos aprendidos a lo largo del curso.",
+				"S3": "Revisión y presentación del proyecto.",
+				"S4": "Examen final"
+			}
+		]
 	},
 	{
 		"id": 4,
@@ -38,10 +237,70 @@
 		"title": "Curso de Desarrollo de Aplicaciones Móviles",
 		"description": "Aprende a desarrollar aplicaciones móviles con React Native y Expo. Cubre componentes, estado, consumo de APIs, manejo de eventos, estado global con Zustand y mapas interactivos",
 		"banner": "/images/courses/movil.jpg",
+		"banner_secondary": "/images/banners/bmovil.jpg",
 		"img_alt": "Curso de Desarrollo de Aplicaciones Móviles",
 		"href": "/cursos/react-native",
-    "price": 120,
-    "duration": "2 meses"
+		"link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20Desarrollo%20Movil",
+		"tags": {
+			"price": 120,
+			"duration": "2 meses",
+			"duration_hrs": "+24 horas",
+			"program": "SÁBADO: 9:00 am - 12:00 pm | 🇵🇪",
+			"teacher": "Lucas Espinoza",
+			"num_classes": "8 clases",
+			"start": "9 de Noviembre",
+			"end": "28 de Diciembre"
+		},
+		"syllabus": [
+			{
+				"title": "Sección 1: Introducción a React Native y Expo",
+				"S1": "Introducción a React Native y sus diferencias con React.",
+				"S2": "¿Qué es Expo y cómo facilita el desarrollo móvil?",
+				"S3": "Configuración del entorno de desarrollo con Expo CLI.",
+				"S4": "Creación de la primera aplicación móvil con React Native y Expo."
+			},
+			{
+				"title": "Sección 2: Componentes y Props en React Native",
+				"S1": "Estructura de componentes en React Native.",
+				"S2": "Uso y manejo de Props en componentes móviles.",
+				"S3": "Componentes básicos de React Native (Text, View, Button, etc.)."
+			},
+			{
+				"title": "Sección 3: Estado y Hooks en React Native",
+				"S1": "Manejo del estado con useState.",
+				"S2": "Introducción a useEffect para manejar efectos secundarios.",
+				"S3": "Ciclo de vida de componentes en aplicaciones móviles."
+			},
+			{
+				"title": "Sección 4: Manejo de Eventos y Estilos en React Native",
+				"S1": "Gestión de eventos en dispositivos móviles (touch, press, scroll).",
+				"S2": "Uso de NativeWind CSS para la aplicación de estilos.",
+				"S3": "Diferencias y ventajas de NativeWind CSS frente a StyleSheet."
+			},
+			{
+				"title": "Sección 5: Consumo de APIs en React Native",
+				"S1": "Introducción al consumo de APIs en aplicaciones móviles.",
+				"S2": "Uso de fetch para realizar peticiones HTTP.",
+				"S3": "Manejo de respuestas y errores de APIs."
+			},
+			{
+				"title": "Sección 6: Manejo del Estado Global con Zustand",
+				"S1": "Introducción a Zustand para el manejo del estado global.",
+				"S2": "Implementación de estado global en una app móvil con Zustand."
+			},
+			{
+				"title": "Sección 7: Librerías de Mapas en React Native",
+				"S1": "Integración de mapas en aplicaciones móviles con React Native Maps.",
+				"S2": "Configuración de mapas interactivos.",
+				"S3": "Uso de geolocalización y marcadores en el mapa."
+			},
+			{
+				"title": "Sección 8: Proyecto Final y Feedback",
+				"S1": "Revisión del proyecto.",
+				"S2": "Examen final",
+				"S3": "Presentación del proyecto y feedback final."
+			}
+		]
 	},
 	{
 		"id": 5,
@@ -49,9 +308,73 @@
 		"title": "Curso de React",
 		"description": "Aprende a construir aplicaciones web dinámicas usando React. Cubre componentes funcionales, manejo de estado con hooks, eventos, formularios, integración de APIs, y despliegue. Además, incluye introducción a TypeScript y Tailwind CSS",
 		"banner": "/images/courses/react.jpg",
+		"banner_secondary": "/images/banners/breact.jpg",
 		"img_alt": "Curso de React",
 		"href": "/cursos/react",
-    "price": 120,
-    "duration": "2 meses"
+		"link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20REACT%21",
+		"tags": {
+			"price": 120,
+			"duration": "2 meses",
+			"duration_hrs": "+24 horas",
+			"program": "DOMINGOS: 4:00 pm - 7:00 pm | 🇵🇪",
+			"teacher": "Leonardo Palomino",
+			"num_classes": "8 clases",
+			"start": "10 de Noviembre",
+			"end": "29 de Diciembre"
+		},
+		"syllabus": [
+			{
+				"title": "Sección 1: Conceptos Básicos, JSX y Creación de Componentes Funcionales",
+				"S1": "Introducción a React y su ecosistema.",
+				"S2": "JSX: definición y uso.",
+				"S3": "Creación de componentes funcionales en JavaScript.",
+				"S4": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 2: Componentes y Props",
+				"S1": "Estructura y creación de componentes.",
+				"S2": "Uso y manejo de props.",
+				"S3": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 3: Estado y Ciclo de Vida",
+				"S1": "Manejo del estado con useState y this.state.",
+				"S2": "Ciclo de vida de componentes de clase.",
+				"S3": "Uso de useEffect para efectos secundarios.",
+				"S4": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 4: Manejo de Eventos, Formularios y Enrutamiento",
+				"S1": "Gestión de eventos (click, change, submit).",
+				"S2": "Control y validación de formularios.",
+				"S3": "Enrutamiento básico con React Router.",
+				"S4": "Ejercicios a desarrollar en clase."
+			},
+			{
+				"title": "Sección 5: Introducción a TypeScript y Tailwind CSS",
+				"S1": "Conceptos básicos de TypeScript.",
+				"S2": "Configuración de un proyecto React con TypeScript.",
+				"S3": "Uso de tipos e interfaces en componentes.",
+				"S4": "Introducción a Tailwind CSS y aplicación de estilos."
+			},
+			{
+				"title": "Sección 6: Manejo de APIs con TypeScript",
+				"S1": "Consumo de APIs usando fetch y axios.",
+				"S2": "Definición de tipos para respuestas de APIs.",
+				"S3": "Manejo de errores y sincronización de datos."
+			},
+			{
+				"title": "Sección 7: Despliegue y Desarrollo del Proyecto",
+				"S1": "Preparación del proyecto para el despliegue.",
+				"S2": "Configuración de entornos de producción y herramientas de despliegue.",
+				"S3": "Desarrollo de un proyecto práctico."
+			},
+			{
+				"title": "Sección 8: Desarrollo y presentación de proyectos finales.",
+				"S1": "Revisión final y presentación del proyecto completo.",
+				"S2": "Examen final",
+				"S3": "Revisión, ajustes y feedback sobre los proyectos"
+			}
+		]
 	}
 ]

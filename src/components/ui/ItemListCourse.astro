@@ -1,0 +1,18 @@
+---
+import CheckSvg from "../svgs/Check_svg.astro";
+
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+---
+
+<li class='flex gap-x-3 justify-center md:justify-start'>
+	<span
+		class='size-5 flex justify-center items-center rounded-full bg-zinc-200 text-pattens-blue-600 dark:bg-black/30 dark:text-pattens-blue-500'
+	>
+		<CheckSvg />
+	</span>
+	<span class='text-gray-800 dark:text-neutral-400 text-base'> {text} </span>
+</li>

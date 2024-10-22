@@ -1,5 +1,28 @@
+---
+export interface ItemSyllabus {
+	title: string;
+	S1?: string;
+	S2?: string;
+	S3?: string;
+	S4?: string;
+	S5?: string;
+}
+
+interface Props {
+	list: ItemSyllabus;
+}
+
+const { list } = Astro.props;
+
+const syllabusKeys: (keyof ItemSyllabus)[] = ['S1', 'S2', 'S3', 'S4', 'S5'];
+
+const syllabusItems: string[] = syllabusKeys
+  .map(key => list[key])
+  .filter((item): item is string => item !== undefined);
+---
+
 <div
-	class='hs-accordion hs-accordion-active:border-zinc-200 max-w-3xl bg-white border border-transparent rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent'
+	class='hs-accordion hs-accordion-active:border-zinc-200 max-w-3xl bg-zinc-200 border border-transparent rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-black dark:border-transparent'
 	id='hs-active-bordered-heading-one'
 >
 	<button
@@ -7,7 +30,7 @@
 		aria-expanded='false'
 		aria-controls='hs-basic-active-bordered-collapse-one'
 	>
-    Sección 1: Conceptos Básicos, JSX y Creación de Componentes Funcionales
+		{list.title}
 		<svg
 			class='hs-accordion-active:hidden block size-3.5'
 			xmlns='http://www.w3.org/2000/svg'
@@ -45,11 +68,10 @@
 		aria-labelledby='hs-active-bordered-heading-one'
 	>
 		<div class='pb-4 px-5'>
-			<ul class='marker:text-pattens-blue-600 list-disc ps-5 space-y-2 text-sm text-zinc-600 dark:text-neutral-400'>
-        <li>Introducción a React y su ecosistema.</li>
-        <li>JSX: definición y uso.</li>
-        <li>Creación de componentes funcionales en JavaScript.</li>
-        <li>Ejercicios a desarrollar en clase.</li>
+			<ul class='marker:text-pattens-blue-600 list-disc ps-5 space-y-2 text-base text-zinc-600 dark:text-neutral-400'>
+				{syllabusItems.map((item) => (
+					<li>{item}</li>
+				))}
 			</ul>
 		</div>
 	</div>

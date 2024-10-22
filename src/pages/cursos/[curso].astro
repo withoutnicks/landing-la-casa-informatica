@@ -1,10 +1,17 @@
 ---
 import { Image } from 'astro:assets';
-import Layout from '../../layouts/Layout.astro';
 import AccordionCourse from '../../components/ui/AccordionCourse.astro';
-import data from '../../mock/cursos.json';
-import BadgeCard from '../../components/ui/BadgeCard.astro';
 import ListDetalist from '../../components/ui/ListDetalist.astro';
+import ItemListCourse from '../../components/ui/ItemListCourse.astro';
+import HomeSvg from '../../components/svgs/Home_svg.astro';
+import ListSvg from '../../components/svgs/List_svg.astro';
+import GiftSvg from '../../components/svgs/Gift_svg.astro';
+import ShopSvg from '../../components/svgs/Shop_svg.astro';
+import Layout from '../../layouts/Layout.astro';
+
+import data from '../../mock/cursos.json';
+import el from '@master/styled.react';
+import HeroButton from '../../components/ui/HeroButton.astro';
 
 export function getStaticPaths() {
 	return data.map((item) => {
@@ -17,43 +24,62 @@ export function getStaticPaths() {
 
 const { curso } = Astro.params;
 const { item } = Astro.props;
+
+const SubTitleCourse = el.h2`text-2xl w-full font-bold underline text-center md:text-start inline-flex gap-2 items-center justify-center md:justify-start`;
 ---
 
-<Layout title={item.title} howIsActive='cursos'>
+<Layout title=`La casa informatica | Curso de ${curso}` howIsActive='cursos'>
 	<main class='flex flex-col md:flex-row justify-center md:justify-around gap-4 py-4 px-4'>
 		<section>
-			<h2 class='text-3xl font-bold text-center md:text-start my-2'>{item.title}</h2>
-			<p class='max-w-xl text-center md:text-start'>{item.description}</p>
+			<SubTitleCourse>
+				<HomeSvg />
+				{item.title}
+			</SubTitleCourse>
+			<p class='max-w-2xl text-center md:text-start my-4'>{item.description}</p>
 			<article>
-				<h3 class='text-2xl font-bold underline text-center md:text-start my-2'>Temario del curso</h3>
+				<SubTitleCourse>
+					<ListSvg /> Temario Del Curso
+				</SubTitleCourse>
 				<div class='hs-accordion-group flex flex-col gap-2 my-6'>
-					<AccordionCourse />
-					<AccordionCourse />
-					<AccordionCourse />
+					{item.syllabus.map((item) => <AccordionCourse list={item} />)}
 				</div>
 			</article>
+			<article>
+				<SubTitleCourse>
+					<GiftSvg /> Que Incluye Este Curso
+				</SubTitleCourse>
+				<ul class='space-y-3 max-w-xl my-4'>
+					<ItemListCourse text='Prácticas' />
+					<ItemListCourse text='Exámenes' />
+					<ItemListCourse text='Proyectos' />
+					<ItemListCourse text='Clases en vivo' />
+					<ItemListCourse text='Las Clases quedan grabadas' />
+					<ItemListCourse text='Seguimiento personalizado' />
+				</ul>
+			</article>
 		</section>
-		<aside class='bg-zinc-200 dark:bg-black rounded-xl mx-auto md:mx-0 w-fit p-4 flex flex-col justify-center items-center'>
+		<aside
+			class='bg-zinc-200 dark:bg-black rounded-xl mx-auto md:mx-0 size-fit p-4 flex flex-col justify-center items-center'
+		>
 			<div>
 				<h4 class='text-center font-medium text-xl my-2 underline'>Detalles del Curso</h4>
-				<Image
-					width={414}
-					height={200}
-					src='/images/banners/breact.jpg'
-					alt={item.img_alt}
-					class={'[mask-image:linear-gradient(#18181b_80%,_transparent)] rounded-2xl rounded-b-none'}
-				/>
+				<Image width={414} height={200} src={item.banner_secondary} alt={item.img_alt} class={'rounded-2xl'} />
 			</div>
-			<section>
-				<ul class='flex flex-col gap-1 mt-2 '>
-					<ListDetalist text='Profesor:' detail={'Leonardo Palomino'} />
-					<ListDetalist text='Clases:' detail={'8 clases'} />
-					<ListDetalist text='Horas de video:' detail={'+24 horas'} />
-					<ListDetalist text='Precio:' detail={'S/. 120'} />
-					<ListDetalist text='Horario:' detail={'Domingos de 4:00 a 7:00PM | 🇵🇪'} />
-					<ListDetalist text='Inicio:' detail={'10 de Diciembre del 2024'} />
-					<ListDetalist text='Final:' detail={'29 de Diciembre del 2024'} />
+			<section class='w-full'>
+				<ul class='flex flex-col mt-2'>
+					<ListDetalist text='Profesor:' detail={item.tags.teacher} />
+					<ListDetalist text='Clases:' detail={item.tags.num_classes} />
+					<ListDetalist text='Horas de video:' detail={item.tags.duration_hrs} />
+					<ListDetalist text='Precio:' detail={`S/. ${item.tags.price}`} />
+					<ListDetalist text='Horario:' detail={item.tags.program} />
+					<ListDetalist text='Inicio:' detail={item.tags.start} />
+					<ListDetalist text='Final:' detail={item.tags.end} />
 				</ul>
+				<div class='my-4 flex justify-center flex-col'>
+					<HeroButton link={item.link_shop} text='Adquirir Ahora' type='white'>
+						<ShopSvg />
+					</HeroButton>
+				</div>
 			</section>
 		</aside>
 	</main>
