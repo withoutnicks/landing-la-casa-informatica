@@ -1,7 +1,28 @@
 ---
+import CardButtonImage from "../components/ui/CardButtonImage.astro";
 import Layout from "../layouts/Layout.astro";
+import data from "../mock/promos.json";
 ---
 
 <Layout title="La casa informatica | Listos para guiarte hacia la digitalización" howIsActive="promociones">
-	<h1>Promociones Page</h1>
+	<section class='py-6 px-4 bg-zinc-200 dark:bg-zinc-900'>
+		<h2 class='text-3xl font-bold underline text-center'>Nuestras Promociones</h2>
+		<div class='flex flex-wrap justify-center py-4 gap-4'>
+			{
+				data.map((item) => (
+					<CardButtonImage
+						banner={item.img_url}
+						title={item.name}
+						price={item.price}
+						description={item.description}
+						href={item.link}
+						alt={`Promoción ${item.name}`}
+						duration={item.duration}
+						star={item.destacado}
+						loadprimary={item.lazyprimary}
+					/>
+				))
+			}
+		</div>
+	</section>
 </Layout>

@@ -1,0 +1,34 @@
+[
+  {
+    "img_url": "/images/products/caja.webp",
+    "name": "La Caja Informática",
+    "description": "La Caja Informática es el paquete perfecto para los amantes de la tecnología. Incluye un Polo de Programación, un Gorro Informático y una Taza Informática.",
+    "price": 100,
+    "sending": true,
+    "link": "https://wa.me/51976783049?text=Hola%20deseo%20comprar%20la%20Caja%20Informática"
+  },
+  {
+    "img_url": "/images/products/polo.webp",
+    "name": "El Polo Informático",
+    "description": "Confeccionado en algodón suave y transpirable, te mantendrá cómodo mientras trabajas en tus proyectos o asistes a eventos de tecnología.",
+    "price": 60,
+    "sending": false,
+    "link": "https://wa.me/51976783049?text=Hola%20deseo%20comprar%20el%20Polo%20Informático"
+  },
+  {
+    "img_url": "/images/products/gorra.webp",
+    "name": "El Gorro Informático",
+    "description": "Hecho de materiales de alta calidad, es cómodo y ligero, ideal para mantenerte abrigado mientras trabajas en tus proyectos o asistes a eventos de programación.",
+    "price": 30,
+    "sending": false,
+    "link": "https://wa.me/51976783049?text=Hola%20deseo%20comprar%20el%20Gorro%20Informático"
+  },
+  {
+    "img_url": "/images/products/taza.webp",
+    "name": "La Taza Informática",
+    "description": "Hecha de cerámica de alta calidad, es ideal para el café, té o cualquier bebida caliente que te acompañe mientras trabajas o estudias.",
+    "price": 15,
+    "sending": false,
+    "link": "https://wa.me/51976783049?text=Hola%20deseo%20comprar%20la%20Taza%20Informática"
+  }
+]

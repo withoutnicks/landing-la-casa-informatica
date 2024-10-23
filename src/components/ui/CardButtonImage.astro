@@ -10,24 +10,39 @@ interface Props {
 	banner: string;
 	href: string;
 	
+	loadprimary?: boolean;
 	price?: number;
 	duration?: string;
+	star?: boolean;
 }
 
-const { title, description, banner, alt, href, price, duration } = Astro.props;
+const { title, description, banner, alt, href, price, duration, star, loadprimary } = Astro.props;
 ---
 
-<div class={`flex flex-col bg-zinc-100 border justify-between hover:scale-[1.02] shadow-sm rounded-xl dark:bg-zinc-900 dark:border-zinc-800`}>
+<div
+	class={`flex flex-col bg-zinc-100 border justify-between hover:scale-[1.02] shadow-sm rounded-xl dark:bg-zinc-900 dark:border-zinc-800`}
+>
 	<div class='p-4 md:p-5'>
-		<h3 class='text-xl font-bold text-zinc-800 dark:text-zinc-100 max-w-xs inline-flex w-full items-center justify-between'>
+		<h3
+			class='text-xl font-bold text-zinc-800 dark:text-zinc-100 max-w-xs inline-flex w-full items-center justify-between'
+		>
 			{title}
-			<a href={href} title="Ver mas informacion" aria-label="Visitar curso"><ExternalLinkSvg /> </a>
+			<a href={href} title='Mas informacion' aria-label='Visitar curso'><ExternalLinkSvg /> </a>
 		</h3>
-		<p class='mt-2 text-zinc-500 dark:text-zinc-400 max-w-xs'>{description}</p>
+		<p class='my-2 text-zinc-500 dark:text-zinc-400 max-w-xs'>{description}</p>
+		{star && <BadgeCard text='Destacado' color='yellow' />}
 		{price && <BadgeCard text={`S/. ${price}`} color='green' />}
 		{duration && <BadgeCard text={duration} color='blue' />}
 	</div>
 	<a href={href}>
-		<Image width={360} height={200} class={`rounded-b-xl brightness-90`} src={banner} alt={alt} />
+		<Image
+			width={360}
+			height={200}
+			class={`rounded-b-xl brightness-90`}
+			src={banner}
+			alt={alt}
+			title='Mas informacion'
+			loading={loadprimary ? 'eager' : 'lazy'}
+		/>
 	</a>
 </div>

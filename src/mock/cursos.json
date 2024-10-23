@@ -4,8 +4,8 @@
 		"key": "javascript",
 		"title": "Curso de JavaScript",
 		"description": "Aprenderás JavaScript desde cero hasta crear y desplegar aplicaciones web, con proyectos prácticos, manejo de Git y GitHub, y desarrollo backend con Node.js",
-		"banner": "/images/courses/javascript.jpg",
-		"banner_secondary": "/images/banners/bjs.jpg",
+		"banner": "/images/courses/javascript.webp",
+		"banner_secondary": "/images/banners/bjs.webp",
 		"img_alt": "Curso de Programación en JavaScript",
 		"href": "/cursos/javascript",
 		"link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20JavaScript%21",
@@ -17,7 +17,8 @@
 			"teacher": "Leonardo Palomino",
 			"num_classes": "8 clases",
 			"start": "10 de Noviembre",
-			"end": "29 de Diciembre"
+			"end": "29 de Diciembre",
+			"loadprimary": true
 		},
 		"syllabus": [
 			{
@@ -84,8 +85,8 @@
 		"key": "python",
 		"title": "Curso de Python",
 		"description": "Aprende desde cero y aplica tus conocimientos en proyectos prácticos. Explora estructuras de control, funciones, POO, y herramientas como Git, Pandas y NumPy.",
-		"banner": "/images/courses/python.jpg",
-		"banner_secondary": "/images/banners/bpython.jpg",
+		"banner": "/images/courses/python.webp",
+		"banner_secondary": "/images/banners/bpython.webp",
 		"img_alt": "Curso de Programación en Python",
 		"href": "/cursos/python",
 		"link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20Python%21",
@@ -97,7 +98,8 @@
 			"teacher": "Leonardo Palomino",
 			"num_classes": "8 clases",
 			"start": "9 de Noviembre",
-			"end": "28 de Diciembre"
+			"end": "28 de Diciembre",
+			"loadprimary": true
 		},
 		"syllabus": [
 			{
@@ -160,8 +162,8 @@
 		"key": "java",
 		"title": "Curso de Java",
 		"description": "Aprende Java desde lo básico hasta el desarrollo de aplicaciones web con Spring Boot. Explora variables, estructuras de control, POO, interfaces, y abstracción. Luego, profundiza en Spring Boot y bases de datos",
-		"banner": "/images/courses/java.jpg",
-		"banner_secondary": "/images/banners/bjava.jpg",
+		"banner": "/images/courses/java.webp",
+		"banner_secondary": "/images/banners/bjava.webp",
 		"img_alt": "Curso de Programación en Java",
 		"href": "/cursos/java",
 		"link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20Java%21",
@@ -173,7 +175,8 @@
 			"teacher": "Yasser Ávalos",
 			"num_classes": "8 clases",
 			"start": "10 de Noviembre",
-			"end": "29 de Diciembre"
+			"end": "29 de Diciembre",
+			"loadprimary": true
 		},
 		"syllabus": [
 			{
@@ -236,8 +239,8 @@
 		"key": "react-native",
 		"title": "Curso de Desarrollo de Aplicaciones Móviles",
 		"description": "Aprende a desarrollar aplicaciones móviles con React Native y Expo. Cubre componentes, estado, consumo de APIs, manejo de eventos, estado global con Zustand y mapas interactivos",
-		"banner": "/images/courses/movil.jpg",
-		"banner_secondary": "/images/banners/bmovil.jpg",
+		"banner": "/images/courses/movil.webp",
+		"banner_secondary": "/images/banners/bmovil.webp",
 		"img_alt": "Curso de Desarrollo de Aplicaciones Móviles",
 		"href": "/cursos/react-native",
 		"link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20Desarrollo%20Movil",
@@ -249,7 +252,8 @@
 			"teacher": "Lucas Espinoza",
 			"num_classes": "8 clases",
 			"start": "9 de Noviembre",
-			"end": "28 de Diciembre"
+			"end": "28 de Diciembre",
+			"loadprimary": false
 		},
 		"syllabus": [
 			{
@@ -307,8 +311,8 @@
 		"key": "react",
 		"title": "Curso de React",
 		"description": "Aprende a construir aplicaciones web dinámicas usando React. Cubre componentes funcionales, manejo de estado con hooks, eventos, formularios, integración de APIs, y despliegue. Además, incluye introducción a TypeScript y Tailwind CSS",
-		"banner": "/images/courses/react.jpg",
-		"banner_secondary": "/images/banners/breact.jpg",
+		"banner": "/images/courses/react.webp",
+		"banner_secondary": "/images/banners/breact.webp",
 		"img_alt": "Curso de React",
 		"href": "/cursos/react",
 		"link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20REACT%21",
@@ -320,7 +324,8 @@
 			"teacher": "Leonardo Palomino",
 			"num_classes": "8 clases",
 			"start": "10 de Noviembre",
-			"end": "29 de Diciembre"
+			"end": "29 de Diciembre",
+			"loadprimary": false
 		},
 		"syllabus": [
 			{

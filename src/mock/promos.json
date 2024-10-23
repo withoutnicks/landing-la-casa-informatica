@@ -1,0 +1,52 @@
+[
+  {
+    "img_url": "/images/courses/promos/promo5.webp",
+    "name": "MEGAPACK",
+    "price": 180,
+    "duration": "2 meses",
+    "description": "Inscríbete en uno de nuestros cursos de programación y, como bono especial, recibirás una CAJA INFORMÁTICA que incluye un polo de programación, una gorra y una taza.",
+    "link": "https://api.whatsapp.com/send?phone=51976783049&text=Hola%20deseo%20comprar%20el%20producto%20MEGAPACK",
+    "destacado": true,
+    "lazyprimary": true
+  },
+  {
+    "img_url": "/images/courses/promos/promo1.webp",
+    "name": "DÚO DINÁMICO",
+    "price": 220,
+    "duration": "2 meses",
+    "description": "Escoge dos cursos de nuestra oferta y combina habilidades esenciales en programación y desarrollo web. Ideal para quienes buscan mejorar su perfil profesional o iniciar su carrera en tecnología.",
+    "link": "https://api.whatsapp.com/send?phone=51976783049&text=Hola%20deseo%20comprar%20el%20producto%20D%C3%9AO%20DIN%C3%81MICO",
+    "destacado": false,
+    "lazyprimary": true
+  },
+  {
+    "img_url": "/images/courses/promos/promo2.webp",
+    "name": "TRES EN UNO",
+    "price": 330,
+    "duration": "2 meses",
+    "description": "Escoge tres cursos de nuestra oferta y combina habilidades esenciales en programación, desarrollo web y análisis de datos. Esta opción es ideal para quienes buscan mejorar su perfil profesional y dar un salto en su carrera en tecnología.",
+    "link": "https://api.whatsapp.com/send?phone=51976783049&text=Hola%20deseo%20comprar%20el%20producto%20TRES%20EN%20UNO",
+    "destacado": true,
+    "lazyprimary": true
+  },
+  {
+    "img_url": "/images/courses/promos/promo3.webp",
+    "name": "CUARTETO DE ÉXITO",
+    "price": 400,
+    "duration": "2 meses",
+    "description": "Escoge cuatro cursos de nuestra oferta y amplía tus habilidades en programación, desarrollo web, análisis de datos y más. Esta opción es perfecta para aquellos que buscan un perfil profesional completo y competitivo en el mercado laboral.",
+    "link": "https://api.whatsapp.com/send?phone=51976783049&text=Hola%20deseo%20comprar%20el%20producto%20CUARTETO%20DE%20%C3%89XITO",
+    "destacado": false,
+    "lazyprimary": false
+  },
+  {
+    "img_url": "/images/courses/promos/promo4.webp",
+    "name": "COMBO COMPLETO",
+    "price": 450,
+    "duration": "2 meses",
+    "description": "Accede a cinco cursos que abarcan todo lo que ofrecemos, desde programación y desarrollo web hasta análisis de datos y desarrollo de aplicaciones móviles con React Native y Expo.",
+    "link": "https://api.whatsapp.com/send?phone=51976783049&text=Hola%20deseo%20comprar%20el%20producto%20COMBO%20COMPLETO",
+    "destacado": false,
+    "lazyprimary": false
+  }
+]

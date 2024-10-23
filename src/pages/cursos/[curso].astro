@@ -32,7 +32,7 @@ const SubTitleCourse = el.h2`text-2xl w-full font-bold underline text-center md:
 ---
 
 <Layout title=`La casa informatica | Curso de ${curso}` howIsActive='cursos'>
-	<main class='flex flex-col md:flex-row justify-center md:justify-around gap-4 py-4 px-4'>
+	<main class='flex flex-col md:flex-row justify-center md:justify-around gap-4 py-4 px-4 bg-zinc-200 dark:bg-zinc-900'>
 		<section>
 			<SubTitleCourse>
 				<HomeSvg /> {item.title}
@@ -61,14 +61,14 @@ const SubTitleCourse = el.h2`text-2xl w-full font-bold underline text-center md:
 			</article>
 		</section>
 		<aside
-			class='bg-zinc-200 dark:bg-black rounded-xl mx-auto md:mx-0 size-fit p-4 flex flex-col justify-center items-center'
+			class='bg-zinc-100 dark:bg-black rounded-xl mx-auto md:mx-0 size-fit p-4 flex flex-col justify-center items-center'
 		>
 			<div>
 				<h4 class='text-center font-medium text-xl my-2 underline'>Detalles del Curso</h4>
 				<Image width={414} height={200} src={item.banner_secondary} alt={item.img_alt} class={'rounded-2xl'} />
 			</div>
 			<section class='w-full'>
-				<ul class='flex flex-col mt-2'>
+				<ul class='flex flex-col mt-2 gap-2'>
 					<ListDetalist text='Profesor:' detail={item.tags.teacher} />
 					<ListDetalist text='Clases:' detail={item.tags.num_classes} />
 					<ListDetalist text='Horas de video:' detail={item.tags.duration_hrs} />
@@ -84,5 +84,6 @@ const SubTitleCourse = el.h2`text-2xl w-full font-bold underline text-center md:
 				</div>
 			</section>
 		</aside>
+		
 	</main>
 </Layout>

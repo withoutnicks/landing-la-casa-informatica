@@ -1,0 +1,42 @@
+---
+import { Image } from 'astro:assets';
+import BadgeCard from './BadgeCard.astro';
+import ExternalLinkSvg from '../svgs/ExternalLink_svg.astro';
+
+interface Props {
+  img_url: string;
+  name: string;
+  description: string;
+  price: number;
+  sending: boolean;
+  link: string;
+  loadprimary?: boolean;
+}
+
+const { name, description, link, price, img_url, sending, loadprimary } = Astro.props
+---
+
+<a class="flex flex-col justify-between bg-white border shadow-sm rounded-xl dark:bg-zinc-900 dark:border-zinc-700 dark:shadow-zinc-700/70 hover:scale-[1.02]" href={link} title="Solicitar Producto">
+  <div class="relative">
+    <Image 
+      width={400}
+      height={400}
+      src={img_url}
+      alt={`Imagen que muestra a ${name}`}
+      class={'rounded-t-xl object-contain'}
+      loading={loadprimary ? 'eager' : 'lazy'}
+    />
+    <div class="absolute top-0 right-0 p-4 text-2xl"><ExternalLinkSvg /></div>
+  </div>
+  <div class="p-4 md:p-5">
+    <h3 class="w-full text-xl font-bold text-zinc-800 dark:text-white inline-flex justify-between items-center">
+      {name} <BadgeCard text={`S/. ${price}`} color='green' />
+    </h3>
+    <p class="h-24 mt-4 max-w-xs text-zinc-500 dark:text-zinc-400 text-base">
+      {description}
+    </p>
+  </div>
+  <p class={`my-2 text-center text-sm text-zinc-500 dark:text-zinc-500 ${sending ? 'text-green-700 dark:text-green-600' : ''}`}>
+    {sending ? 'En el precio se incluye el envío' : 'En el precio no se incluye el envío'} - VÁLIDO PARA PERÚ 🇵🇪
+  </p>
+</a>
