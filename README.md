@@ -1,54 +1,57 @@
-# Astro Starter Kit: Basics
 
-```sh
-npm create astro@latest -- --template basics
-```
+# La casa Informatica 🏠🧑‍💻
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Landing page principal para la academia "La casa informatica"
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> [!NOTE]
+> Esta no es la web oficial y fue hecha con fines educativos
+## 🔥 Stack Tech
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=for-the-badge)
+- ![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=for-the-badge)
+- ![TypeScript Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)
+
+> [!IMPORTANT]
+> Tambien se usan otras tecnologias mas pequeñas a continuacion:
+
+- **PrelineUI** como libreria de componentes. [Ver](https://preline.co/index.html)
+- **Styled** para crear mini componentes en linea. [Ver](https://github.com/master-co/styled?tab=readme-ov-file)
+- **React** dependencia necesaria para Styled. [Ver](https://es.react.dev/)
+- **Tailwind Animated** para el efecto inicial del  Hero [Ver](https://github.com/new-data-services/tailwindcss-animated)
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+📁 **components** ▪️ Componentes UI, SVGs y MiniComponentes
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+📁 **layouts** ▪️ Layouts
+
+📁 **mock** ▪️ Mocks de datos para rellenar cards y paginas
+
+📁 **pages** ▪️ Páginas principales de la web
+
+```
+└── 📁src
+    └── 📁components
+        └── 📁svgs
+        └── 📁ui
+    └── 📁layouts
+    └── 📁mock
+    └── 📁pages
+        └── 📁cursos
+    └── env.d.ts
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
-
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `pnpm install`             | Instala las dependencias                            |
+| `pnpm dev`             | Inicia el servidor de desarrollo en `localhost:4321`      |
+| `pnpm build`           | Construye su sitio para producción en `./dist/`          |
+| `pnpm preview`         | Obtenga una vista previa de su compilación localmente     |
 
-## 👀 Want to learn more?
+## 👀 Authors
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- [@withoutnicks](https://github.com/withoutnicks)
+
