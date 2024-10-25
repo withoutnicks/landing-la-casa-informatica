@@ -17,11 +17,25 @@ const { title, howIsActive } = Astro.props;
 
 	<head>
 		<meta charset='UTF-8' />
-		<meta name='description' content='Astro description' />
+		<meta name="description" content="La Casa Informática es una academia de programación en Perú que ofrece cursos de Python, JavaScript, React, Java, y React Native. Aprende desde cero o mejora tus habilidades con expertos en tecnología y acelera tu carrera en el mundo digital. Inscríbete ahora y da el siguiente paso en tu formación profesional." />
 		<meta name='viewport' content='width=device-width' />
 		<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
 		<meta name='generator' content={Astro.generator} />
 		<title>{title}</title>
+
+		<!--
+			* SEO Tags para Google
+			-->
+		<meta name="robots" content="index, follow" />
+		<meta property="og:title" content="La Casa Informática - Aprende programación de manera practica y actualizada" />
+		<meta property="og:description" content="Aprende programación en Python, JavaScript, React, Java y React Native. Cursos con expertos para acelerar tu carrera digital." />
+		<meta property="og:image" content="/images/banner_seo.webp" />
+		<meta property="og:url" content=" " />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="La Casa Informática - Aprende programación de manera practica y actualizada" />
+		<meta name="twitter:description" content="Cursos de programación en Python, JavaScript, React, Java y más. Aprende con expertos y transforma tu futuro digital en La Casa Informática." />
+		<meta name="twitter:image" content="/images/banner_seo.webp" />
+		
 		<!-- 
 			* View Transitions API para el cambio de páginas
 			-->

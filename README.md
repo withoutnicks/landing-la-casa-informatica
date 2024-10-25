@@ -1,10 +1,11 @@
 
 # La casa Informatica 🏠🧑‍💻
 
-Landing page principal para la academia "La casa informatica"
-
 > [!NOTE]
 > Esta no es la web oficial y fue hecha con fines educativos
+
+Landing page principal para la academia "La casa informatica" - [VER DEMO](https://no-official-lcinformatica.netlify.app)
+
 ## 🔥 Stack Tech
 
 - ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=for-the-badge)

@@ -4,7 +4,7 @@
     "name": "MEGAPACK",
     "price": 180,
     "duration": "2 meses",
-    "description": "Inscríbete en uno de nuestros cursos de programación y, como bono especial, recibirás una CAJA INFORMÁTICA que incluye un polo de programación, una gorra y una taza.",
+    "description": "Inscríbase en uno de nuestros cursos de programación y, como bono especial, recibirás una CAJA INFORMÁTICA que incluye un polo de programación, una gorra y una taza.",
     "link": "https://api.whatsapp.com/send?phone=51976783049&text=Hola%20deseo%20comprar%20el%20producto%20MEGAPACK",
     "destacado": true,
     "lazyprimary": true

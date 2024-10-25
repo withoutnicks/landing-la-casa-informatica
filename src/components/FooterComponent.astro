@@ -8,7 +8,7 @@ import TelSvg from './svgs/Tel_svg.astro';
 
 import el from '@master/styled.react';
 
-const SubTitleFooter = el.h2`text-lg font-bold text-pattens-blue-500 text-center md:text-left`;
+const SubTitleFooter = el.h2`text-lg font-bold text-pattens-blue-500 text-center`;
 ---
 
 <footer class='bg-zinc-100 dark:bg-black'>
@@ -16,23 +16,23 @@ const SubTitleFooter = el.h2`text-lg font-bold text-pattens-blue-500 text-center
 		<div class='grid grid-cols-1 gap-8 md:grid-cols-3 justify-items-center'>
 			<div>
 				<SubTitleFooter>LA CASA INFORMATICA</SubTitleFooter>
-				<p class='mt-6 w-full text-center leading-relaxed dark:text-zinc-400 md:max-w-xs md:text-left text-lg'>
+				<p class='mt-6 w-full text-center leading-relaxed dark:text-zinc-400 md:max-w-xs text-lg'>
 					Domina la Tecnología de Forma Práctica y Actualizada
 				</p>
 			</div>
 
-			<div>
+			<div class="text-center">
 				<SubTitleFooter>CONTACTA CON NOSOTROS</SubTitleFooter>
 				<ul class='mt-6 space-y-4 text-md'>
 					<FooterLink text='leonardopalomino321@gmail.com'>
 						<MailSvg size={'1.2rem'} />
 					</FooterLink>
-					<FooterLink text='+51 976783049'>
+					<FooterLink text='+51 976 783 049'>
 						<TelSvg size={'1.2rem'} />
 					</FooterLink>
 				</ul>
 			</div>
-			<div>
+			<div class="text-center">
 				<SubTitleFooter>REDES SOCIALES</SubTitleFooter>
 				<ul class='mt-6 space-y-4 text-base'>
 					<FooterLink href='https://www.instagram.com/leonardo_palomino1/' text='Instagram'>
@@ -49,7 +49,7 @@ const SubTitleFooter = el.h2`text-lg font-bold text-pattens-blue-500 text-center
 		</div>
 
 		<div class='mt-12 border-t border-zinc-400 dark:border-zinc-800 pt-6'>
-			<p class='mt-4 text-md text-zinc-500 md:order-first md:mt-0 text-center'>&copy; 2024 - withoutnicks</p>
+			<p class='mt-4 text-md text-zinc-500 md:order-first md:mt-0 text-center'>&copy; 2024 - La Casa Informática</p>
 		</div>
 	</div>
 </footer>
