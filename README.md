@@ -1,7 +1,7 @@
 
 # La casa Informatica - Landing Page 🏠🧑‍💻
 
-Landing page principal para la academia "La casa informatica" - [VER DEMO](https://no-official-lcinformatica.netlify.app)
+Landing page principal para la academia "La casa informatica" - [VER DEMO](https://lacasainformatica.netlify.app)
 
 ## 🔥 Stack Tech
 
