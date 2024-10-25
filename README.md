@@ -1,8 +1,5 @@
 
-# La casa Informatica 🏠🧑‍💻
-
-> [!NOTE]
-> Esta no es la web oficial y fue hecha con fines educativos
+# La casa Informatica - Landing Page 🏠🧑‍💻
 
 Landing page principal para la academia "La casa informatica" - [VER DEMO](https://no-official-lcinformatica.netlify.app)
 
