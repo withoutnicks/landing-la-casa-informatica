@@ -171,8 +171,8 @@
 			"price": 120,
 			"duration": "2 meses",
 			"duration_hrs": "+24 horas",
-			"program": "DOMINGO: 8:00 am - 11:00 pm | 🇵🇪",
-			"teacher": "Yasser Ávalos",
+			"program": "DOMINGO: 8:00 am - 10:00 am | 🇵🇪",
+			"teacher": "Lucas Espinoza",
 			"num_classes": "8 clases",
 			"start": "10 de Noviembre",
 			"end": "29 de Diciembre",
@@ -234,78 +234,7 @@
 			}
 		]
 	},
-	{
-		"id": 4,
-		"key": "react-native",
-		"title": "Curso de Desarrollo de Aplicaciones Móviles",
-		"description": "Aprende a desarrollar aplicaciones móviles con React Native y Expo. Cubre componentes, estado, consumo de APIs, manejo de eventos, estado global con Zustand y mapas interactivos",
-		"banner": "/images/courses/movil.webp",
-		"banner_secondary": "/images/banners/bmovil.webp",
-		"img_alt": "Curso de Desarrollo de Aplicaciones Móviles",
-		"href": "/cursos/react-native",
-		"link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20Desarrollo%20Movil",
-		"tags": {
-			"price": 120,
-			"duration": "2 meses",
-			"duration_hrs": "+24 horas",
-			"program": "SÁBADO: 9:00 am - 12:00 pm | 🇵🇪",
-			"teacher": "Lucas Espinoza",
-			"num_classes": "8 clases",
-			"start": "9 de Noviembre",
-			"end": "28 de Diciembre",
-			"loadprimary": false
-		},
-		"syllabus": [
-			{
-				"title": "Sección 1: Introducción a React Native y Expo",
-				"S1": "Introducción a React Native y sus diferencias con React.",
-				"S2": "¿Qué es Expo y cómo facilita el desarrollo móvil?",
-				"S3": "Configuración del entorno de desarrollo con Expo CLI.",
-				"S4": "Creación de la primera aplicación móvil con React Native y Expo."
-			},
-			{
-				"title": "Sección 2: Componentes y Props en React Native",
-				"S1": "Estructura de componentes en React Native.",
-				"S2": "Uso y manejo de Props en componentes móviles.",
-				"S3": "Componentes básicos de React Native (Text, View, Button, etc.)."
-			},
-			{
-				"title": "Sección 3: Estado y Hooks en React Native",
-				"S1": "Manejo del estado con useState.",
-				"S2": "Introducción a useEffect para manejar efectos secundarios.",
-				"S3": "Ciclo de vida de componentes en aplicaciones móviles."
-			},
-			{
-				"title": "Sección 4: Manejo de Eventos y Estilos en React Native",
-				"S1": "Gestión de eventos en dispositivos móviles (touch, press, scroll).",
-				"S2": "Uso de NativeWind CSS para la aplicación de estilos.",
-				"S3": "Diferencias y ventajas de NativeWind CSS frente a StyleSheet."
-			},
-			{
-				"title": "Sección 5: Consumo de APIs en React Native",
-				"S1": "Introducción al consumo de APIs en aplicaciones móviles.",
-				"S2": "Uso de fetch para realizar peticiones HTTP.",
-				"S3": "Manejo de respuestas y errores de APIs."
-			},
-			{
-				"title": "Sección 6: Manejo del Estado Global con Zustand",
-				"S1": "Introducción a Zustand para el manejo del estado global.",
-				"S2": "Implementación de estado global en una app móvil con Zustand."
-			},
-			{
-				"title": "Sección 7: Librerías de Mapas en React Native",
-				"S1": "Integración de mapas en aplicaciones móviles con React Native Maps.",
-				"S2": "Configuración de mapas interactivos.",
-				"S3": "Uso de geolocalización y marcadores en el mapa."
-			},
-			{
-				"title": "Sección 8: Proyecto Final y Feedback",
-				"S1": "Revisión del proyecto.",
-				"S2": "Examen final",
-				"S3": "Presentación del proyecto y feedback final."
-			}
-		]
-	},
+	
 	{
 		"id": 5,
 		"key": "react",

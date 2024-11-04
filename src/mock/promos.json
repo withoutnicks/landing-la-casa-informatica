@@ -38,15 +38,5 @@
     "link": "https://api.whatsapp.com/send?phone=51976783049&text=Hola%20deseo%20comprar%20el%20producto%20CUARTETO%20DE%20%C3%89XITO",
     "destacado": false,
     "lazyprimary": false
-  },
-  {
-    "img_url": "/images/courses/promos/promo4.webp",
-    "name": "COMBO COMPLETO",
-    "price": 450,
-    "duration": "2 meses",
-    "description": "Accede a cinco cursos que abarcan todo lo que ofrecemos, desde programación y desarrollo web hasta análisis de datos y desarrollo de aplicaciones móviles con React Native y Expo.",
-    "link": "https://api.whatsapp.com/send?phone=51976783049&text=Hola%20deseo%20comprar%20el%20producto%20COMBO%20COMPLETO",
-    "destacado": false,
-    "lazyprimary": false
   }
 ]
