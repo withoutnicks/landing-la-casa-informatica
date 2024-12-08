@@ -185,11 +185,7 @@
         "S2": "Conjuntos: operaciones básicas.",
         "S3": "Comparación entre diccionarios, listas y conjuntos."
       },
-      {
-        "title": "Sección 7: Manejo de Archivos",
-        "S1": "Manejo de archivos: Leer y escribir en archivos de texto, CSV, JSON.",
-        "S2": "Avance 3 de su proyecto final."
-      },
+      
       {
         "title": "Sección 7: Programación Orientada a Objetos (POO)",
         "S1": "Introducción a clases y objetos.",
@@ -437,7 +433,7 @@
       "duration_hrs": "+26 horas",
       "program": "Mar, Jue: 4:00 - 7:00 pm | 🇵🇪",
       "teacher": "Leonardo Palomino",
-      "num_classes": "12 clases",
+      "num_classes": "13 clases",
       "start": "2 de Enero",
       "end": "30 de Enero",
       "loadprimary": false
