@@ -34,7 +34,7 @@
     "name": "CUARTETO DE ÉXITO",
     "price": 400,
     "duration": "1 mes",
-    "description": "Escoge los cuatro cursos de nuestra oferta y amplía tus habilidades en programación, desarrollo web, análisis de datos y más. ¡Además, al comprar 4 cursos te llevas La Caja Informática, totalmente gratis (Solo válido para Perú)! Esta opción es perfecta para aquellos que buscan un perfil profesional completo y competitivo en el mercado laboral.",
+    "description": "Escoge cuatro cursos de nuestra oferta y amplía tus habilidades en programación, desarrollo web, análisis de datos y más. ¡Además, al comprar 4 cursos te llevas 1 adicional! Esta opción es perfecta para aquellos que buscan un perfil profesional completo y competitivo en el mercado laboral.",
     "link": "https://api.whatsapp.com/send?phone=51976783049&text=Hola%20deseo%20comprar%20el%20producto%20CUARTETO%20DE%20%C3%89XITO",
     "destacado": false,
     "lazyprimary": false
