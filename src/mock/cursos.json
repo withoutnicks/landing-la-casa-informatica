@@ -341,82 +341,8 @@
     ]
   },
 
-  {
-    "id": 5,
-    "key": "react",
-    "title": "Curso de React",
-    "description": "Aprende a construir aplicaciones web dinámicas usando React. Cubre componentes funcionales, manejo de estado con hooks, eventos, formularios, integración de APIs, y despliegue. Además, incluye introducción a TypeScript y Tailwind CSS",
-    "banner": "/images/courses/react.webp",
-    "banner_secondary": "/images/banners/breact.webp",
-    "img_alt": "Curso de React",
-    "href": "/cursos/react",
-    "link_shop": "https://wa.me/51976783049?text=%C2%A1Hola%2C%20me%20interesa%20el%20curso%20de%20REACT%21",
-    "tags": {
-      "price": 120,
-      "duration": "1 mes",
-      "duration_hrs": "+24 horas",
-      "program": "Sáb y Dom: 9:00 am - 12:00 pm | 🇵🇪",
-      "teacher": "Lucas Espinoza",
-      "num_classes": "8 clases",
-      "start": "4 de Enero",
-      "end": "29 de Enero",
-      "loadprimary": false
-    },
-    "syllabus": [
-      {
-        "title": "Sección 1: Conceptos Básicos, JSX y Creación de Componentes Funcionales",
-        "S1": "Introducción a React y su ecosistema.",
-        "S2": "JSX: definición y uso.",
-        "S3": "Creación de componentes funcionales en JavaScript.",
-        "S4": "Ejercicios a desarrollar en clase."
-      },
-      {
-        "title": "Sección 2: Componentes y Props",
-        "S1": "Estructura y creación de componentes.",
-        "S2": "Uso y manejo de props.",
-        "S3": "Ejercicios a desarrollar en clase."
-      },
-      {
-        "title": "Sección 3: Estado y Ciclo de Vida",
-        "S1": "Manejo del estado con useState y this.state.",
-        "S2": "Ciclo de vida de componentes de clase.",
-        "S3": "Uso de useEffect para efectos secundarios.",
-        "S4": "Ejercicios a desarrollar en clase."
-      },
-      {
-        "title": "Sección 4: Manejo de Eventos, Formularios y Enrutamiento",
-        "S1": "Gestión de eventos (click, change, submit).",
-        "S2": "Control y validación de formularios.",
-        "S3": "Enrutamiento básico con React Router.",
-        "S4": "Ejercicios a desarrollar en clase."
-      },
-      {
-        "title": "Sección 5: Introducción a TypeScript y Tailwind CSS",
-        "S1": "Conceptos básicos de TypeScript.",
-        "S2": "Configuración de un proyecto React con TypeScript.",
-        "S3": "Uso de tipos e interfaces en componentes.",
-        "S4": "Introducción a Tailwind CSS y aplicación de estilos."
-      },
-      {
-        "title": "Sección 6: Manejo de APIs con TypeScript",
-        "S1": "Consumo de APIs usando fetch y axios.",
-        "S2": "Definición de tipos para respuestas de APIs.",
-        "S3": "Manejo de errores y sincronización de datos."
-      },
-      {
-        "title": "Sección 7: Despliegue y Desarrollo del Proyecto",
-        "S1": "Preparación del proyecto para el despliegue.",
-        "S2": "Configuración de entornos de producción y herramientas de despliegue.",
-        "S3": "Desarrollo de un proyecto práctico."
-      },
-      {
-        "title": "Sección 8: Desarrollo y presentación de proyectos finales.",
-        "S1": "Revisión final y presentación del proyecto completo.",
-        "S2": "Examen final",
-        "S3": "Revisión, ajustes y feedback sobre los proyectos"
-      }
-    ]
-  },
+  
+
   {
     "id": 6,
     "key": "html-css-figma",
